@@ -62,7 +62,7 @@
     {
         "DownloadLocation": "https://api.github.com/repos/marcobubke/securesocketclient/zipball/7ee6f8b14286b4a4a9cf0e4d68bb1610dbbd3bae",
         "Icon": "network.png",
-        "Id": 9,
+        "Id": 11,
         "LongDescription": "",
         "Name": "Secure Socket Client",
         "ProjectFile": "securesocketclient.pro",
