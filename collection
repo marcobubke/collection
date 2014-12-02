@@ -40,6 +40,16 @@
         "Tags": "core server local socket advanced"
     },
     {
+        "DownloadLocation": "https://api.github.com/repos/marcobubke/multicastsender/zipball/eb92f61656e922b706e7cae02b59098a136220df",
+        "Icon": "network.png",
+        "Id": 9,
+        "LongDescription": "This example demonstrates how to send messages to the clients of a multicast group.",
+        "Name": "Multicast Sender ",
+        "ProjectFile": "multicastsender.pro",
+        "ShortDescription": "This example demonstrates how to send messages to the clients of a multicast group.",
+        "Tags": "upd network advanced"
+    },
+    {
         "DownloadLocation": "https://api.github.com/repos/marcobubke/queuedcustomtype/zipball/02639caad6b09e412a7dfc41e6c1768383359e56",
         "Icon": "core.png",
         "Id": 4,
@@ -48,6 +58,16 @@
         "ProjectFile": "queuedcustomtype.pro",
         "ShortDescription": "The Queued Custom Type example shows how to send custom types between threads with queued signals and slots.",
         "Tags": "core signal slot thread advanced"
+    },
+    {
+        "DownloadLocation": "https://api.github.com/repos/marcobubke/securesocketclient/zipball/7ee6f8b14286b4a4a9cf0e4d68bb1610dbbd3bae",
+        "Icon": "network.png",
+        "Id": 9,
+        "LongDescription": "",
+        "Name": "Secure Socket Client",
+        "ProjectFile": "securesocketclient.pro",
+        "ShortDescription": "This example uses QSslSocket to demonstrate how to communicate over an encrypted connection, deal with authenticity problems, and display security and certificate information.",
+        "Tags": "network tcp server advanced"
     },
     {
         "DownloadLocation": "https://api.github.com/repos/marcobubke/semaphores/zipball/6bbc86a8d3eb5da44bf0d7524814f438b64d8875",
@@ -68,6 +88,16 @@
         "ProjectFile": "sharedmemory.pro",
         "ShortDescription": "This class is a simple example of how to use QSharedMemory.",
         "Tags": "core shared memory advanced"
+    },
+    {
+        "DownloadLocation": "https://api.github.com/repos/marcobubke/threadedfortuneserver/zipball/4a4f5c2b9cc5349f86274ce462c8926304d17dd6",
+        "Icon": "network.png",
+        "Id": 10,
+        "LongDescription": "<p>The implementation of this example is similar to that of the Fortune Server example, but here we will implement a subclass of QTcpServer that starts each connection in a different thread.</p>",
+        "Name": "Threaded Fortune Server ",
+        "ProjectFile": "threadedfortuneserver.pro",
+        "ShortDescription": "The Threaded Fortune Server example shows how to create a server for a simple network service that uses threads to handle requests from different clients. It is intended to be run alongside the Fortune Client example.",
+        "Tags": "network tcp server thread advanced"
     },
     {
         "DownloadLocation": "https://api.github.com/repos/marcobubke/waitconditions/zipball/9a364786aacdfaee0b00a9b897a8f87f41b6fd66",
