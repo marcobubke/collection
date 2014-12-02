@@ -20,6 +20,16 @@
         "Tags": "core server local socket advanced"
     },
     {
+        "DownloadLocation": "https://api.github.com/repos/marcobubke/queuedcustomtype/zipball/02639caad6b09e412a7dfc41e6c1768383359e56",
+        "Icon": "core.png",
+        "Id": 4,
+        "LongDescription": "<p>In the Custom Type Example, we showed how to integrate custom types with the meta-object system, enabling them to be stored in QVariant objects, written out in debugging information and used in signal-slot communication. In this example, we create a new value class, Block, and register it with the meta-object system to enable us to send instances of it between threads using queued signals and slots.</p>",
+        "Name": "Queued Custom Type",
+        "ProjectFile": "queuedcustomtype.pro",
+        "ShortDescription": "The Queued Custom Type example shows how to send custom types between threads with queued signals and slots.",
+        "Tags": "core signal slot thread advanced"
+    },
+    {
         "DownloadLocation": "https://api.github.com/repos/marcobubke/sharedmemory/zipball/60f574bae140d81be232eacbafdd4a5aa9b7a41f",
         "Icon": "core.png",
         "Id": 1,
