@@ -1,5 +1,15 @@
 [
     {
+        "DownloadLocation": "https://api.github.com/repos/marcobubke/localfortuneclient/zipball/342953a5ee82e0e177cd53cffdb5882fd44192a3",
+        "Icon": "core.png",
+        "Id": 2,
+        "LongDescription": "",
+        "Name": "Local Fortune Client Example",
+        "ProjectFile": "localfortuneclient.pro",
+        "ShortDescription": "The Local Fortune Client example shows how to create a client for a simple local service using QLocalSocket.",
+        "Tags": "core local socket advanced"
+    },
+    {
         "DownloadLocation": "https://api.github.com/repos/marcobubke/sharedmemory/zipball/60f574bae140d81be232eacbafdd4a5aa9b7a41f",
         "Icon": "core.png",
         "Id": 1,
