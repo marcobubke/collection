@@ -1,26 +1,12 @@
 [
     {
-        "DownloadLocation": "https://api.github.com/repos/marcobubke/fourth/zipball/2b9c5fb1c7ee65509f7a066cf6b8c3ece26d1bf8",
-        "Icon": "network.png",
-        "Id": 4,
-        "Name": "Fourth Example",
-        "ShortDescription": "View View Zwei View Zwei View Zwei View Zwei View Zwei View",
-        "Tags": "network complex advanced expert http server client"
-    },
-    {
-        "DownloadLocation": "https://api.github.com/repos/marcobubke/second/zipball/2802cabb95ad745244ee674e970cc89c26f153ee",
-        "Icon": "network.png",
-        "Id": 2,
-        "Name": "Second  Example",
-        "ShortDescription": "Zwei Zwei Zwei Zwei Zwei Zwei Zwei Zwei Zwei Zwei Zwei Zwei",
-        "Tags": "network basic tutorial beginner"
-    },
-    {
-        "DownloadLocation": "https://api.github.com/repos/marcobubke/second/zipball/5bc57bbc0714844eaf1e020282bbfda4b4b6821f",
+        "DownloadLocation": "https://api.github.com/repos/marcobubke/sharedmemory/zipball/60f574bae140d81be232eacbafdd4a5aa9b7a41f",
         "Icon": "core.png",
-        "Id": 3,
-        "Name": "Third Example",
-        "ShortDescription": "Drei Drei Drei Drei Zwei Drei Zwei Drei Zwei Drei Zwei Zwei",
-        "Tags": "core complex advanced alogorithm deep inside expert"
+        "Id": 1,
+        "LongDescription": "<p>It is a simple dialog that presents a few buttons. To compile the example, run make in qt/examples/ipc. Then run the executable twice to create two processes running the dialog. In one of the processes, press the button to load an image into a shared memory segment, and then select an image file to load. Once the first process has loaded and displayed the image, in the second process, press the button to read the same image from shared memory. The second process displays the same image loaded from its new loaction in shared memory.</p><p>The class contains a data member QSharedMemory::sharedMemory, which is initialized with the key 'QSharedMemoryExample' to force all instances of Dialog to access the same shared memory segment. The constructor also connects the clicked() signal from each of the three dialog buttons to the slot function appropriate for handling each button.</p>",
+        "Name": "Shared Memory",
+        "ProjectFile": "sharedmemory.pro",
+        "ShortDescription": "This class is a simple example of how to use QSharedMemory.",
+        "Tags": "core shared memory advanced"
     }
 ]
