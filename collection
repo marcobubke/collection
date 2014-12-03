@@ -70,7 +70,7 @@
         "Tags": "network tcp server advanced"
     },
     {
-        "DocumentationFile": "http://qt-project.org/doc/qt-5/qtcore-semaphores-example.html",
+        "DocumentationLocation": "http://qt-project.org/doc/qt-5/qtcore-semaphores-example.html",
         "DownloadLocation": "https://api.github.com/repos/marcobubke/semaphores/zipball/v1",
         "Icon": "core.png",
         "Id": 5,
