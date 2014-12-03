@@ -10,7 +10,7 @@
         "Tags": "core tcp client advanced"
     },
     {
-        "DownloadLocation": "https://api.github.com/repos/marcobubke/fortuneserver/zipball/d9ffff9a54dcc37a2b1baef57b4a11fedd846e5e",
+        "DownloadLocation": "https://api.github.com/repos/marcobubke/fortuneserver/zipball/$SHA",
         "Icon": "network.png",
         "Id": 8,
         "LongDescription": "<p>It uses QTcpServer to accept incoming TCP connections, and a simple QDataStream based data transfer protocol to write a fortune to the connecting client (from the Fortune Client example), before closing the connection.</p>",
@@ -30,7 +30,7 @@
         "Tags": "core local socket advanced"
     },
     {
-        "DownloadLocation": "https://api.github.com/repos/marcobubke/localfortuneserver/zipball/09c2a182e1d65fdc2ecbe378ff453de52e19bcc5",
+        "DownloadLocation": "https://api.github.com/repos/marcobubke/localfortuneserver/zipball/$SHA",
         "Icon": "core.png",
         "Id": 3,
         "LongDescription": "The Local Fortune Server example shows how to create a server for a simple local service. It is intended to be run alongside the Local Fortune Client Example.",
@@ -71,7 +71,7 @@
     },
     {
         "DocumentationFile": "http://qt-project.org/doc/qt-5/qtcore-semaphores-example.html",
-        "DownloadLocation": "https://api.github.com/repos/marcobubke/semaphores/zipball/d920d3f7e7b8c8f27e45541f2f1bcac90e131d59",
+        "DownloadLocation": "https://api.github.com/repos/marcobubke/semaphores/zipball/v1",
         "Icon": "core.png",
         "Id": 5,
         "LongDescription": "<p>The producer writes data to the buffer until it reaches the end of the buffer, at which point it restarts from the beginning, overwriting existing data. The consumer thread reads the data as it is produced and writes it to standard error.</p><p>Semaphores make it possible to have a higher level of concurrency than mutexes. If accesses to the buffer were guarded by a QMutex, the consumer thread couldn't access the buffer at the same time as the producer thread. Yet, there is no harm in having both threads working on different parts of the buffer at the same time.</p><p>The example comprises two classes: Producer and Consumer. Both inherit from QThread. The circular buffer used for communicating between these two classes and the semaphores that protect it are global variables.</p><p>An alternative to using QSemaphore to solve the producer-consumer problem is to use QWaitCondition and QMutex. This is what the Wait Conditions Example does.</p>",
