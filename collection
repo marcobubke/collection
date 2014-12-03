@@ -10,7 +10,7 @@
         "Tags": "core tcp client advanced"
     },
     {
-        "DownloadLocation": "https://api.github.com/repos/marcobubke/fortuneclient/zipball/9c692d76d5c108523cc0c5e07ed806821bc50ba7",
+        "DownloadLocation": "https://api.github.com/repos/marcobubke/fortuneserver/zipball/d9ffff9a54dcc37a2b1baef57b4a11fedd846e5e",
         "Icon": "network.png",
         "Id": 8,
         "LongDescription": "<p>It uses QTcpServer to accept incoming TCP connections, and a simple QDataStream based data transfer protocol to write a fortune to the connecting client (from the Fortune Client example), before closing the connection.</p>",
@@ -30,7 +30,7 @@
         "Tags": "core local socket advanced"
     },
     {
-        "DownloadLocation": "https://api.github.com/repos/marcobubke/localfortuneserver/zipball/87fb34a9c690cbf0050c4b14df73133af4fcb446",
+        "DownloadLocation": "https://api.github.com/repos/marcobubke/localfortuneserver/zipball/09c2a182e1d65fdc2ecbe378ff453de52e19bcc5",
         "Icon": "core.png",
         "Id": 3,
         "LongDescription": "The Local Fortune Server example shows how to create a server for a simple local service. It is intended to be run alongside the Local Fortune Client Example.",
